@@ -1,0 +1,91 @@
+header {
+    .icons-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        background-color: var(--secondary-color);
+        padding: 16px 0;
+
+        img {
+            width: 36px;
+            height: 36px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+        flex-wrap: wrap;
+
+        .logo {
+            display: flex;
+            align-items: center;
+            width: 50%;
+
+            img {
+                width: 125px;
+                height: auto;
+                padding: 4px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .menu-icon {
+            width: 50%;
+            display: flex;
+            justify-content: flex-end;
+
+            img {
+                width: 36px;
+                height: 36px;
+                padding: 4px 8px;
+
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .hamburguer-menu {
+        width: 100%;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 8px 6px;
+
+            li {
+                width: 100%;
+                text-align: center;
+                padding: 24px 0;
+                border-bottom: 1px solid var(--disabled-color);
+
+                a {
+                    text-decoration: none;
+                    color: var(--disabled-color);
+                }
+
+                .active-link {
+                    font-weight: 600;
+                    color: var(--primary-color);
+                }
+
+                &:last-child {
+                    border: none;
+                }
+            }
+        }
+    }
+}

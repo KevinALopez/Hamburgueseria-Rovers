@@ -1,17 +1,18 @@
 :root {
-    --tablet-breakpoint: 601px;
-    --desktop-breakpoint: 769px;
+    --tablet-breakpoint: 37.5625rem;
+    --desktop-breakpoint: 48.0625rem;
     --primary-color: #fa573a;
     --secondary-color: #21242e;
-    --font-size: 16px;
+    --disabled-color: #adadad;
+    --font-size: 1rem;
 }
 
 .wrapper {
-    max-width: 1004px;
+    max-width: 62.75rem;
 }
 
 body {
-    font-family: "Handlee", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1,
@@ -20,5 +21,5 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Handlee", sans-serif;
 }
