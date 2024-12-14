@@ -8,6 +8,10 @@
     --max-width: 62.75rem;
 }
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Montserrat", sans-serif;
 
@@ -37,4 +41,19 @@ h4,
 h5,
 h6 {
     font-family: "Handlee", sans-serif;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 44px;
+    right: 8px;
+    z-index: 1;
+    cursor: pointer;
+
+    transition: bottom 0.3s;
+
+    &:hover {
+        bottom: 48px;
+        transition: 0.3s;
+    }
 }
