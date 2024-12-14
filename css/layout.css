@@ -10,6 +10,20 @@
 
 body {
     font-family: "Montserrat", sans-serif;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+main,
+footer {
+    width: 100%;
+}
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 h1,
