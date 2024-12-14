@@ -16,8 +16,12 @@ body {
     }
 }
 
-main,
 footer {
+    width: 100%;
+}
+
+main {
+    margin-bottom: 7.5rem;
     width: 100%;
 }
 
