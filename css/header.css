@@ -16,17 +16,26 @@ header {
 
         padding: 1rem 0rem;
 
+        div {
+            align-content: center;
+        }
+
         div:hover {
             cursor: pointer;
         }
 
-        img {
+        i {
             width: 2.25rem;
             height: 2.25rem;
+            font-size: 2.25rem;
+            padding-right: 0.25rem;
         }
 
-        .phone-icon {
-            rotate: 270deg;
+        .fa-phone,
+        .fa-circle-user,
+        .fa-cart-shopping {
+            font-size: 2.2rem;
+            align-content: center;
         }
 
         span {

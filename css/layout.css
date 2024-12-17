@@ -43,6 +43,10 @@ h6 {
     font-family: "Handlee", sans-serif;
 }
 
+i {
+    color: #fa573a;
+}
+
 .back-to-top {
     position: fixed;
     bottom: 44px;
