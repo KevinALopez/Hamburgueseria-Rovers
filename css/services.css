@@ -54,11 +54,12 @@
 
             padding: 1.5rem 0;
 
-            img {
+            i {
                 width: 1.875rem;
                 height: 1.875rem;
                 border: 0.0625rem solid var(--primary-color);
-                padding: 0.625rem;
+                padding: 0.625rem 1.2rem 1rem 0.625rem;
+                font-size: 2rem;
             }
 
             h3 {
@@ -84,8 +85,14 @@
             }
         }
 
-        article:nth-child(2) img {
+        article:nth-child(2) i {
             rotate: y 180deg;
+        }
+
+        article:last-child i {
+            font-size: 2.25rem;
+            padding-left: 0.6rem;
+            padding-right: 1rem;
         }
     }
 }
