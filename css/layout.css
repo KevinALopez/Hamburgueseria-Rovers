@@ -53,6 +53,7 @@ i {
     right: 8px;
     z-index: 1;
     cursor: pointer;
+    font-size: 3rem;
 
     transition: bottom 0.3s;
 
